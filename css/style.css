@@ -65,7 +65,8 @@ body {
   border: 1px solid wheat;
   border-radius: 50px;
   background-color: rgba(226, 84, 24, 0.925);
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
+  font-weight: bold;
 }
 .btn-schedule a {
   color: white;
@@ -76,21 +77,37 @@ body {
 }
 /* help */
 .help i {
-  font-size: 10px;
+  font-size: 14px;
   color: var(--color-primary);
 }
-/* service */
-.service i {
-  font-size: 10px;
+/* work */
+.work i {
+  font-size: 14px;
   color: var(--color-primary);
 }
 /* booksfaq */
 .booksfaq i {
-  font-size: 10px;
+  font-size: 14px;
   color: var(--color-primary);
 }
 /* review */
 .review i {
   font-size: 14px;
   color: var(--color-primary);
+}
+/* services */
+.service i {
+  font-size: 14px;
+  color: var(--color-primary);
+}
+.btn-readmore {
+  border: 1px solid wheat;
+  border-radius: 10px;
+  background-color: var(--color-primary);
+  padding: 6px;
+  color: #fff;
+  font-weight: bold;
+}
+.btn-readmore:hover {
+  background-color: #000;
 }
