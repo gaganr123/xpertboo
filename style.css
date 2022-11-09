@@ -1,0 +1,81 @@
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+/* Colors */
+:root {
+  --color-default: #000;
+  --color-primary: rgba(241, 96, 34, 0.705);
+}
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+body {
+  font-family: var(--font-default);
+  color: var(--color-default);
+}
+.myHeader {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myHeader-home {
+  background-image: url("../imgs/bookkeeping.png");
+}
+.dropdown-item {
+  width: 25em;
+  font-size: large;
+}
+#hero {
+  height: 100%;
+  width: 100%;
+}
+/* for the content in main page */
+
+/* mak enavbar small */
+.myHeader .nav-item .nav-link {
+  color: rgb(0, 3, 3);
+  margin: 0 0.5rem;
+}
+.navbar {
+  background-color: rgb(248, 244, 244);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* navbar hover effect to change color and border  */
+.nav-item .nav-link:hover {
+  color: rgba(241, 96, 34, 0.705);
+}
+.btn-schedule {
+  border: 1px solid wheat;
+  border-radius: 50px;
+  background-color: rgba(226, 84, 24, 0.925);
+  padding: 10px 10px 10px 10px;
+}
+.btn-schedule a {
+  color: white;
+  text-decoration: none;
+}
+.btn-schedule:hover {
+  background-color: rgb(41, 21, 7);
+}
+/* help */
+.help i {
+  font-size: 10px;
+  color: var(--color-primary);
+}
