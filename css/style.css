@@ -84,3 +84,13 @@ body {
   font-size: 10px;
   color: var(--color-primary);
 }
+/* booksfaq */
+.booksfaq i {
+  font-size: 10px;
+  color: var(--color-primary);
+}
+/* review */
+.review i {
+  font-size: 14px;
+  color: var(--color-primary);
+}
