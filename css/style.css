@@ -24,6 +24,11 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
 }
+
+p {
+  text-align: justify;
+}
+
 .myHeader {
   height: 100vh;
   width: 100%;
@@ -116,6 +121,14 @@ body {
 .faq i {
   font-size: 14px;
   color: var(--color-primary);
+}
+
+/* about */
+.about p {
+  font-size: 18px;
+}
+.counter {
+  background-color: whitesmoke;
 }
 /* footer */
 .footer {
