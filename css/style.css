@@ -124,6 +124,10 @@ body {
   color: var(--color-primary);
   font-size: 20px;
 }
+/* contact */
+.form {
+  background: #f9f8f4;
+}
 /* footer */
 .footer {
   background-color: rgba(31, 27, 27, 0.822);
