@@ -146,6 +146,13 @@ body {
 .form {
   background: #f9f8f4;
 }
+/* dedicated */
+.dedicate p {
+  text-align: justify;
+}
+.dedicatefunction p {
+  text-align: justify;
+}
 /* footer */
 .footer {
   background-color: rgba(31, 27, 27, 0.822);
