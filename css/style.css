@@ -57,7 +57,7 @@ body {
 }
 .call i {
   font-size: 20px;
-  color: var(--color-primary);
+  color: black;
 }
 /* for the content in main page */
 
@@ -130,6 +130,18 @@ body {
 }
 
 /* about */
+
+.aboutherotext {
+  margin-top: 200px;
+}
+.aboutherotext p {
+  text-align: justify;
+}
+@media (max-width: 425px) {
+  .aboutherotext {
+    margin-top: 130px;
+  }
+}
 .about p {
   font-size: 18px;
   text-align: justify;
@@ -137,6 +149,7 @@ body {
 .counter {
   background-color: whitesmoke;
 }
+
 /* pricing */
 .pricing i {
   color: var(--color-primary);
@@ -147,11 +160,82 @@ body {
   background: #f9f8f4;
 }
 /* dedicated */
+#dedicatehero {
+  background-image: url("../imgs/bookkeepingbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
 .dedicate p {
   text-align: justify;
 }
 .dedicatefunction p {
   text-align: justify;
+}
+/* cloud */
+#cloudhero {
+  background-image: url("../imgs/cloudbasedaccountingbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+/* payroll */
+#payrollhero {
+  background-image: url("../imgs/payrollbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+/* report */
+#reporthero {
+  background-image: url("../imgs/monthlyfinancialreportingbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+/* backlog */
+#backloghero {
+  background-image: url("../imgs/backlogaccountingbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+/* cashflow */
+#cashflowhero {
+  background-image: url("../imgs/cashflowbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+/* payable */
+#payablehero {
+  background-image: url("../imgs/accountspayablebg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+/* receivable */
+#receivablehero {
+  background-image: url("../imgs/accountsreceivablebg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+/* reconciliation */
+#reconcihero {
+  background-image: url("../imgs/reconciliationsbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
 }
 /* footer */
 .footer {
