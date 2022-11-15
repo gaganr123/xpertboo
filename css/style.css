@@ -115,17 +115,22 @@ p {
 .service p {
   text-align: justify;
 }
-.btn-readmore {
-  border: 1px solid wheat;
-  border-radius: 10px;
-  background-color: rgb(233, 171, 146);
-  padding: 6px;
-  color: #fff;
+.service a {
+  color: #e4812f;
   font-weight: bold;
 }
-.btn-readmore:hover {
-  background-color: #000;
+.btn-readmore {
+  border: none;
+  /* border-radius: 10px; */
+  /* background-color: rgb(233, 171, 146); */
+  padding: 6px;
+
+  font-weight: bold;
+  color: var(--color-primary);
 }
+/* .btn-readmore:hover {
+  background-color: #000;
+} */
 /* faq */
 
 .faq i {
@@ -262,4 +267,36 @@ p {
 .footer a {
   color: #fff;
   text-decoration: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
