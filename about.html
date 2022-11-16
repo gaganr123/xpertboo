@@ -28,6 +28,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
+    <!-- counter cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -202,21 +204,31 @@
           <div class="col-lg-4 col-md-4">
             <div class="text-center">
               <h2>
-                <i class="bi bi-person-badge-fill"></i><br /><b>500+</b> Clients
+                <i class="bi bi-person-badge-fill"></i><br /><b
+                  ><span class="counterup">500</span>+</b
+                >
+                Clients
               </h2>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div class="text-center">
               <h2>
-                <i class="bi bi-house-fill"></i><br /><b>1000+</b> Small
-                Business
+                <i class="bi bi-house-fill"></i><br /><b
+                  ><span class="counterup">1000</span>+</b
+                >
+                Small Business
               </h2>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div class="text-center">
-              <h2><i class="bi bi-percent"></i><br /><b>100%</b> Results</h2>
+              <h2>
+                <i class="bi bi-percent"></i><br /><b
+                  ><span class="counterup">100</span>%</b
+                >
+                Results
+              </h2>
             </div>
           </div>
         </div>
@@ -349,6 +361,28 @@
       </div>
     </section>
     <!-- end footer -->
+    <!-- counter js -->
+    <script>
+      $(document).ready(function () {
+        $(".counterup").each(function () {
+          $(this)
+            .prop("Counter", 0)
+            .animate(
+              {
+                Counter: $(this).text(),
+              },
+              {
+                duration: 4000,
+                easing: "swing",
+                step: function (now) {
+                  $(this).text(Math.ceil(now));
+                },
+              }
+            );
+        });
+      });
+    </script>
+    <!-- end counter js -->
     <script src="js/demo.js"></script>
   </body>
 </html>
