@@ -111,6 +111,9 @@ p {
 .review p {
   text-align: justify;
 }
+.review i {
+  color: #e4812f;
+}
 /* services */
 .service p {
   text-align: justify;
@@ -120,19 +123,15 @@ p {
   font-weight: bold;
 }
 .btn-readmore {
-  border: none;
-  /* border-radius: 10px; */
-  /* background-color: rgb(233, 171, 146); */
-  padding: 6px;
-
+  border: 1px solid whitesmoke;
+  border-radius: 50px;
+  padding: 8px;
   font-weight: bold;
-  color: var(--color-primary);
+  color: #e4812f;
 }
-/* .btn-readmore:hover {
-  background-color: #000;
-} */
-/* faq */
-
+.btn-readmore:hover {
+  background-color: wheat;
+}
 .faq i {
   font-size: 14px;
   color: var(--color-primary);
@@ -205,22 +204,7 @@ p {
   height: 100vh;
   width: 100%;
 }
-/* backlog */
-#backloghero {
-  background-image: url("../imgs/backlogaccountingbg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-}
-/* cashflow */
-#cashflowhero {
-  background-image: url("../imgs/cashflowbg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-}
+
 /* payable */
 #payablehero {
   background-image: url("../imgs/accountspayablebg.png");
@@ -229,14 +213,7 @@ p {
   height: 100vh;
   width: 100%;
 }
-/* receivable */
-#receivablehero {
-  background-image: url("../imgs/accountsreceivablebg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-}
+
 /* reconciliation */
 #reconcihero {
   background-image: url("../imgs/reconciliationsbg.png");
