@@ -37,7 +37,7 @@ p {
 }
 
 .myHeader-home {
-  background-image: url("../imgs/bookkeeping.png");
+  background-image: url("../imgs/bookkeeping.webp");
 }
 .dropdown-item {
   width: 25em;
@@ -168,7 +168,7 @@ p {
 }
 /* dedicated */
 #dedicatehero {
-  background-image: url("../imgs/bookkeepingbg.png");
+  background-image: url("../imgs/bookkeepingbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -182,7 +182,7 @@ p {
 }
 /* cloud */
 #cloudhero {
-  background-image: url("../imgs/cloudbasedaccountingbg.png");
+  background-image: url("../imgs/cloudbasedaccountingbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -190,7 +190,7 @@ p {
 }
 /* payroll */
 #payrollhero {
-  background-image: url("../imgs/payrollbg.png");
+  background-image: url("../imgs/payrollbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -198,7 +198,7 @@ p {
 }
 /* report */
 #reporthero {
-  background-image: url("../imgs/monthlyfinancialreportingbg.png");
+  background-image: url("../imgs/monthlyfinancialreportingbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -207,7 +207,7 @@ p {
 
 /* payable */
 #payablehero {
-  background-image: url("../imgs/accountspayablebg.png");
+  background-image: url("../imgs/accountspayablebg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -216,7 +216,7 @@ p {
 
 /* reconciliation */
 #reconcihero {
-  background-image: url("../imgs/reconciliationsbg.png");
+  background-image: url("../imgs/reconciliationsbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
