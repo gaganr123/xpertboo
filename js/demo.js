@@ -161,3 +161,26 @@ function changeColorto() {
   s.src = "https://call.chatra.io/chatra.js";
   if (d.head) d.head.appendChild(s);
 })(document, window, "Chatra");
+
+// counter
+
+$(document).ready(function () {
+  $(".counterup").each(function () {
+    $(this)
+      .prop("Counter", 50)
+      .animate(
+        {
+          Counter: $(this).text(),
+        },
+        {
+          duration: 4000,
+          easing: "swing",
+          step: function (now) {
+            $(this).text(Math.ceil(now));
+          },
+        }
+      );
+  });
+});
+
+// counter end
