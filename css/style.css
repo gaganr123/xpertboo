@@ -194,7 +194,7 @@ p {
 }
 /* cloud */
 #cloudhero {
-  background-image: url("../imgs/cloudbasedaccountingbg.webp");
+  background-image: url("../imgs/cloud\ accounting.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -202,7 +202,7 @@ p {
 }
 /* payroll */
 #payrollhero {
-  background-image: url("../imgs/payrollbg.webp");
+  background-image: url("../imgs/payroll.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -210,7 +210,7 @@ p {
 }
 /* report */
 #reporthero {
-  background-image: url("../imgs/monthlyfinancialreportingbg.webp");
+  background-image: url("../imgs/Finance\ report.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -228,7 +228,7 @@ p {
 
 /* reconciliation */
 #reconcihero {
-  background-image: url("../imgs/reconciliationsbg.webp");
+  background-image: url("../imgs/reconciliation.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
