@@ -174,8 +174,13 @@ p {
   font-size: 20px;
 }
 /* contact */
+.formbg {
+  background: #f9f8f459;
+  border-left: 2px solid #e4812f;
+}
+
 .form {
-  background: #f9f8f4;
+  background: snow;
 }
 /* dedicated */
 #dedicatehero {
@@ -236,24 +241,34 @@ p {
 /* footer */
 .footer {
   background-color: rgba(31, 27, 27, 0.822);
+  background: url("../imgs/footer.png");
+  background-size: cover;
+  object-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 .footer p {
-  color: #fff;
+  color: #000;
 }
 
 .footer h5 {
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 .social i {
   font-size: 30px;
-  color: white;
+  color: #e4812f;
+}
+.social i:hover {
+  color: #000;
 }
 .footer li {
-  color: #fff;
+  color: #000;
 }
 .footer a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 /* swiper */
