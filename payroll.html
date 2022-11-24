@@ -32,112 +32,10 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="myHeader-about">
-      <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-        <div class="container p-0">
-          <a href="index.html" class="ms-2">
-            <img
-              class="img-fluid"
-              id="navImg"
-              src="imgs/logo.webp"
-              width="110px"
-              height="auto"
-              alt=""
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-lg-0">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="services"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <ul class="dropdown-menu bg-light" aria-labelledby="services">
-                  <li>
-                    <a class="dropdown-item" href="dedicate.html"
-                      >Dedicated Bookkeeping service</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="payroll.html"
-                      >Payroll Management</a
-                    >
-                  </li>
-                 
-                  <li>
-                    <a class="dropdown-item" href="report.html"
-                      >Monthly Financial Reporting</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="cloud.html"
-                      >Upgrade to Cloud Accounting</a
-                    >
-                  </li>
-                 
-                  <li>
-                    <a class="dropdown-item" href="receivable.html"
-                      >Receivable/payable Management</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="reconciliation.html"
-                      >Reconciliations</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="about"
-                  id="about"
-                  href="about.html"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="pricing"
-                  id="pricing"
-                  href="pricing.html"
-                  >Pricing</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="blog" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="contact" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-           <!-- end -->
-           <div class="call me-3">
-            <a href="tel:9835678"><i class="bi bi-telephone-outbound-fill"></i></a>
-           </div>
-           <!-- end call -->
-        </div>
-      </nav>
-    </header>
+    <!-- header -->
+    <script src="js/header.js"></script>
+    <my-header></my-header>
+    <!-- end -->
     <section id="payrollhero">
         <div class="container ">
           <div class="row">
@@ -199,7 +97,7 @@
         </div>
         <!-- end -->
         <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-center order-sm-1">
-          <img src="./imgs/payrolemanagement.webp" class="img-fluid p-2" height="auto" width="250px" alt="img" />
+          <img src="./imgs/financereport.svg" class="img-fluid p-2" height="auto" width="250px" alt="img" />
         </div>
         <!-- end -->
       </div>
@@ -282,62 +180,8 @@
      <!-- end -->
     
     <!-- footer -->
-    <section class="footer">
-      <div class="container-fluid">
-        <div class="row mt-5 py-5 g-2">
-          <div class="col-lg-3 col-md-6 col-sm-12 ps-5">
-            
-              <img
-                class="img-fluid p-2"
-                src="imgs/logo.webp"
-                width="200px"
-                height="auto"
-                
-                alt=""
-              />
-           
-            <p class="my-5">
-              Ourbookkeepingservices is certified US-based bookkeepers and
-              accountants who have aggregated experience of 25 years and above.
-            </p>
-            <div class="social d-flex gap-2">
-              <a href=""><i class="bi bi-facebook"></i></a
-              ><a href=""><i class="bi bi-youtube"></i></a
-              ><a href=""><i class="bi bi-instagram"></i></a>
-            </div>
-          </div>
-          <!-- col end -->
-          <div class="col-lg-4 col-md-6 col-sm-12 ps-3">
-            <h5 class="ps-5 mb-3">Our Services</h5>
-            <ul style="list-style: none;" >
-              <li><p><i class="bi bi-chevron-right"></i> <a href="reconciliation.html"> Reconciliations</a></p></li>
-              <li><p><i class="bi bi-chevron-right"></i> <a href="dedicate.html"> Dedicate Bookkeeping service</a></p></li>
-              <li><p><i class="bi bi-chevron-right"></i> <a href="payroll.html"> Payroll Management</a></p></li>
-              <li><p><i class="bi bi-chevron-right"></i> <a href="report.html"> Monthly Financial Reporting</a></p></li>
-
-              <li><p><i class="bi bi-chevron-right"></i> <a href="cloud.html"> Upgrade to Cloud Accounting</a></p></li>
-              <li><p><i class="bi bi-chevron-right"></i> <a href="payable.html"> Payable/receivable Management</a></p></li>
-           </ul>
-          </div>
-          <!-- col end -->
-          <div class="col-lg-4 ps-5">
-            <h5 class=" mb-3">Company</h5>
-            <p><i class="bi bi-geo"></i>  Company Address-5600</p>
-            <p><i class="bi bi-envelope-check-fill"></i>  example@gmail.com</p>
-            <p><i class="bi bi-telephone-fill"></i>  +1 9747583424894</p>
-            <div class="d-flex gap-2 mt-lg-5">
-              <p><a href="">Terms of use</a></p>
-              <span class="text-light">|</span>
-              <p><a href="">Privacy policy</a></p>
-            </div>
-            
-          </div>
-          <p class="text-center ms-lg-5">OurBookKeepingservices &copy; All Right Reserved</p>
-          <!-- col end -->
-         
-        </div>
-      </div>
-    </section>
+    <script src="js/footer.js"></script>
+    <my-footer></my-footer>
 <!-- end footer -->
 <script src="js/demo.js"></script>
 </body>
