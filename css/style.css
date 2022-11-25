@@ -178,7 +178,7 @@ p {
 }
 /* dedicated */
 #dedicatehero {
-  background-image: url("../imgs/dedicatebg.webp");
+  background-image: url("../imgs/dedicatedbg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -208,7 +208,7 @@ p {
 }
 /* report */
 #reporthero {
-  background-image: url("../imgs/Finance\ report.png");
+  background-image: url("../imgs/monthly\ financial.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
