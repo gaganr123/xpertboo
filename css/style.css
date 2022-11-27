@@ -217,7 +217,7 @@ p {
 
 /* payable */
 #payablehero {
-  background-image: url("../imgs/accountspayablebg.webp");
+  background-image: url("../imgs/accountspayablebg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;

@@ -81,7 +81,7 @@ class MyFooter extends HTMLElement {
           </div>
           <!-- col end -->
           <p class="text-center">
-            OurBookKeepingservices &copy; All Right Reserved
+            All Right Reserved&copy2022;
           </p>
         </div>
       </div>
