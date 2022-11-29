@@ -84,6 +84,7 @@ p {
   background-color: rgba(226, 84, 24, 0.925);
   padding: 10px;
   font-weight: bold;
+  margin-left: 15%;
 }
 .btn-schedule a {
   color: white;
