@@ -73,7 +73,12 @@ p {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-
+.dropdown-menu li a {
+  color: white;
+}
+.dropdown-menu {
+  background-color: #e4812f;
+}
 /* navbar hover effect to change color and border  */
 .nav-item .nav-link:hover {
   color: rgba(241, 96, 34, 0.705);
