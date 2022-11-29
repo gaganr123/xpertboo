@@ -90,7 +90,7 @@ p {
   text-decoration: none;
 }
 .btn-schedule:hover {
-  background-color: rgb(41, 21, 7);
+  background-color: #555;
 }
 /* help */
 .help p {
@@ -297,4 +297,21 @@ p {
   height: auto;
   object-fit: cover;
   padding: 50px;
+}
+/*  */
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99;
+  font-size: 15px;
+
+  background-color: #fa7304;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }

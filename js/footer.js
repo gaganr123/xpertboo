@@ -5,6 +5,7 @@ class MyFooter extends HTMLElement {
           <section class="footer">
       <div class="container-fluid">
         <div class="row mt-5 py-5 g-2">
+       
           <div class="col-lg-3 col-md-6 col-sm-12 ps-5">
             <img
               class="img-fluid p-2"
@@ -83,7 +84,7 @@ class MyFooter extends HTMLElement {
           <p class="text-center">
             All Right Reserved&copy2022;
           </p>
-        </div>
+          </div>
       </div>
     </section>
    <!-- End Footer -->
