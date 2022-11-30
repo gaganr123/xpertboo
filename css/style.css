@@ -83,6 +83,7 @@ p {
 .nav-item .nav-link:hover {
   color: rgba(241, 96, 34, 0.705);
 }
+
 .btn-schedule {
   border: 1px solid wheat;
   border-radius: 50px;
@@ -96,6 +97,22 @@ p {
   text-decoration: none;
 }
 .btn-schedule:hover {
+  background-color: #555;
+}
+/*  */
+
+.btn-banner {
+  border: 1px solid wheat;
+  border-radius: 50px;
+  background-color: rgba(226, 84, 24, 0.925);
+  padding: 10px;
+  font-weight: bold;
+}
+.btn-banner a {
+  color: white;
+  text-decoration: none;
+}
+.btn-banner:hover {
   background-color: #555;
 }
 /* help */
