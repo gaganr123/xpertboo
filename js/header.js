@@ -39,7 +39,7 @@ class MyHeader extends HTMLElement {
             >
               Services
             </a>
-            <ul class="dropdown-menu" aria-labelledby="services">
+            <ul class="dropdown-menu border-0" aria-labelledby="services">
               <li>
                 <a class="dropdown-item" href="dedicate.html"
                   >Dedicated Bookkeeping service</a
