@@ -30,6 +30,40 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        right:0;
+        background-color: rgb(238, 146, 26);
+        overflow: hidden;
+        width: 20%;
+        height: 0;
+        transition: 0.5s ease;
+      }
+
+      .card:hover .overlay {
+        bottom: 0;
+        height: 100%;
+        
+      }
+
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .text i{
+        color: white;
+        font-size: 18px;
+      }
+    </style>
   </head>
   <body>
      <!-- header -->
@@ -38,13 +72,13 @@
     <!-- end -->
     <section id="abouthero">
         <div class="container ">
-          <div class="row mt-5">
+          <div class="row mt-5 g-5">
             <div class="col-lg-12 mt-5 text-center">
-             <h2>Accounting, Bookkeeping & Tax Blog</h2>
+             <h2>Accounting, Bookkeeping & Tax Blogs</h2>
              <p class="text-center">Visit our blogs for daily update about bookkeeping</p>
               </div>
               <div class="mt-2 d-flex justify-content-center align-items-center">
-                <button type="button" class="btn-schedule">
+                <button type="button" class="btn-banner">
                   <a href="contact.html#form">
                     Schedule Free Call
                       <i class="bi bi-calendar-week text-light"></i
@@ -62,7 +96,7 @@
      <section class="blog">
         <div class="container">
             <div class="row my-4 g-4">
-                <div class="col-lg-3 col-md-6 d-flex">
+                <div class="col-lg-4 col-md-6 d-flex">
                     <div class="card card-body flex-fill">
                         <img src="./imgs/taxation.webp" height="auto" width="150px" class="img-fluid" alt="" />
                         <h2>My Title</h2>
@@ -70,42 +104,96 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic quibusdam temporibus alias ..
                      </P>
                      <a href="blogdetails.html"><button type="button" class="btn btn-link">Read</button></a>
+                     <div class="overlay">
+                      <div class="text">
+                        <p><b><i class="bi bi-share"></i></b></p>
+                        <ul class="p-2" style="list-style: none">
+                          <p>
+                           <a href=""> <li><i class="bi bi-facebook"></i></li></a>
+                          </p>
+                          <p>
+                            <a href=""> <li><i class="bi bi-instagram"></i></li></a>
+                          </p>
+                          <p>
+                            <a href=""> <li><i class="bi bi-linkedin"></i></li></a>
+                          </p>
+                          <p>
+                            <li>
+                              <a href=""> <li><i class="bi bi-twitter"></i></li></a>
+                            </li>
+                          </p>
+                        </ul>
+                      </div>
                     </div>
                 </div>
-                <!-- end -->
-                <div class="col-lg-3 col-md-6 d-flex">
-                    <div class="card card-body flex-fill">
-                        <img src="./imgs/taxation.webp" height="auto" width="150px" class="img-fluid" alt="" />
-                        <h2>My Title</h2>
-                        <P>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic quibusdam temporibus alias ..
-                     </P>
-                     <a href="blogdetails.html"><button type="button" class="btn btn-link">Read</button></a>
-                    </div>
                 </div>
                 <!-- end -->
-                <div class="col-lg-3 col-md-6 d-flex">
-                    <div class="card card-body flex-fill">
-                        <img src="./imgs/taxation.webp" height="auto" width="150px" class="img-fluid" alt="" />
-                        <h2>My Title</h2>
-                        <P>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic quibusdam temporibus alias ..
-                     </P>
-                     <a href="blogdetails.html"><button type="button" class="btn btn-link">Read</button></a>
+                <div class="col-lg-4 col-md-6 d-flex">
+                  <div class="card card-body flex-fill">
+                      <img src="./imgs/taxation.webp" height="auto" width="150px" class="img-fluid" alt="" />
+                      <h2>My Title</h2>
+                      <P>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic quibusdam temporibus alias ..
+                   </P>
+                   <a href="blogdetails.html"><button type="button" class="btn btn-link">Read</button></a>
+                   <div class="overlay">
+                    <div class="text">
+                      <p><b><i class="bi bi-share"></i></b></p>
+                      <ul class="p-2" style="list-style: none">
+                        <p>
+                         <a href=""> <li><i class="bi bi-facebook"></i></li></a>
+                        </p>
+                        <p>
+                          <a href=""> <li><i class="bi bi-instagram"></i></li></a>
+                        </p>
+                        <p>
+                          <a href=""> <li><i class="bi bi-linkedin"></i></li></a>
+                        </p>
+                        <p>
+                          <li>
+                            <a href=""> <li><i class="bi bi-twitter"></i></li></a>
+                          </li>
+                        </p>
+                      </ul>
                     </div>
+                  </div>
+              </div>
                 </div>
-                <!-- end -->
-                <div class="col-lg-3 col-md-6 d-flex">
-                    <div class="card card-body flex-fill">
-                        <img src="./imgs/taxation.webp" height="auto" width="150px" class="img-fluid" alt="" />
-                        <h2>My Title</h2>
-                        <P>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic quibusdam temporibus alias ..
-                     </P>
-                     <a href=""><button type="button" class="btn btn-link">Read</button></a>
+              <!-- end -->
+                 <!-- end -->
+                 <div class="col-lg-4 col-md-6 d-flex">
+                  <div class="card card-body flex-fill">
+                      <img src="./imgs/taxation.webp" height="auto" width="150px" class="img-fluid" alt="" />
+                      <h2>My Title</h2>
+                      <P>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic quibusdam temporibus alias ..
+                   </P>
+                   <a href="blogdetails.html"><button type="button" class="btn btn-link">Read</button></a>
+                   <div class="overlay">
+                    <div class="text">
+                      <p><b><i class="bi bi-share"></i></b></p>
+                      <ul class="p-2" style="list-style: none">
+                        <p>
+                         <a href=""> <li><i class="bi bi-facebook"></i></li></a>
+                        </p>
+                        <p>
+                          <a href=""> <li><i class="bi bi-instagram"></i></li></a>
+                        </p>
+                        <p>
+                          <a href=""> <li><i class="bi bi-linkedin"></i></li></a>
+                        </p>
+                        <p>
+                          <li>
+                            <a href=""> <li><i class="bi bi-twitter"></i></li></a>
+                          </li>
+                        </p>
+                      </ul>
                     </div>
+                  </div>
+              </div>
                 </div>
-                <!-- end -->
+              <!-- end -->
+              
             </div>
         </div>
      </section>
