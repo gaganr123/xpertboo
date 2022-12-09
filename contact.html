@@ -57,7 +57,7 @@
         <div class="container mt-5" >
             <div class="row my-4 g-2">
                 <div class="col-lg-4 col-md-4 form p-3">
-                 <div class="logo mb-4">
+                 <div class="logo my-4">
                     <img src="./imgs/logo.webp" class="img-fluid" height="auto" width="100px" alt="" />
                  </div>
                  <p>
@@ -68,10 +68,10 @@
                  <img src="./imgs/faq2.webp" class="img-fluid p-lg-5" alt="">
                 </div>
                 <div class="col-lg-8 col-md-8 p-lg-5  formbg" >
-                    <h6 class="mt-lg-3">*Please feel free to add any information here that would be
+                    <h6 class="mt-3 p-2">*Please feel free to add any information here that would be
                          helpful for us to know ahead of meeting with you. 
                     </h6>
-                    <form class="row g-3 mt-3 p-2">
+                    <form class="row g-3 mt-1 p-2">
                         <div class="col-md-6">
                             <label for="inputName4" class="form-label">Full Name*</label>
                             <input type="text" class="form-control" id="inputName4" required>
@@ -87,6 +87,14 @@
                           <label for="inputJob4" class="form-label">Job Title</label>
                           <input type="text" class="form-control" id="inputJob4">
                         </div>
+                        <div class="col-md-6">
+                          <label for="inputDate" class="form-label">Select Date</label>
+                          <input type="date" class="form-control" id="date">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputTime" class="form-label">Choose time</label>
+                          <input type="time" class="form-control" id="time">
+                        </div>
                         <div class="col-12">
                           <label for="inputQuery" class="form-label">Write Your Query</label>
                           <textarea class="form-control" id="inputQuery" rows="3"></textarea>
@@ -95,7 +103,7 @@
                       
                        
                         <div class="col-12 d-flex justify-content-center align-items-center">
-                          <button type="submit" class="btn btn-dark mt-2">Send Query</button>
+                          <button type="submit" class="btn btn-light mt-2">Schedule call </button>
                         </div>
                       </form>
                 </div>
