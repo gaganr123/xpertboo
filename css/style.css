@@ -13,13 +13,14 @@
 }
 
 /* Smooth scroll behavior */
-:root {
-  scroll-behavior: smooth;
-}
 
 /*--------------------------------------------------------------
     # General
     --------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -74,10 +75,10 @@ p {
   display: block;
 }
 .dropdown-menu li a {
-  color: white;
+  color: black;
 }
 .dropdown-menu {
-  background-color: #f3a769;
+  background-color: rgba(241, 235, 235, 0.767);
 }
 /* navbar hover effect to change color and border  */
 .nav-item .nav-link:hover {

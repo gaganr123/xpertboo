@@ -37,7 +37,7 @@ class MyFooter extends HTMLElement {
               <li>
                 <p>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="dedicate.html"> Dedicate Bookkeeping service</a>
+                  <a href="dedicate.html"> Dedicated Bookkeeping service</a>
                 </p>
               </li>
               <li>
@@ -70,9 +70,9 @@ class MyFooter extends HTMLElement {
           <!-- col end -->
           <div class="col-lg-4 ps-5">
             <h5 class="mb-3">Company</h5>
-            <p><i class="bi bi-geo"></i> Company Address-5600</p>
-            <p><i class="bi bi-envelope-check-fill"></i> example@gmail.com</p>
-            <p><i class="bi bi-telephone-fill"></i> +1 9747583424894</p>
+            <p><i class="bi bi-geo"></i> Round Rock, Texas</p>
+            <p><i class="bi bi-envelope-check-fill"></i> contact@ourbookkeepingservices.com</p>
+            <p><i class="bi bi-telephone-fill"></i> (978) 637 6362</p>
             <div class="d-flex gap-2 mt-lg-5">
               <p><a href="terms-condition.html">Terms of use</a></p>
               <span class="text-light">|</span>
