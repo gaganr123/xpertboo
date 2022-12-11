@@ -16,8 +16,7 @@ class MyFooter extends HTMLElement {
             />
 
             <p class="my-5">
-              Ourbookkeepingservices is certified US-based bookkeepers and
-              accountants who have aggregated experience of 25 years and above.
+            Ourbookkeepingservices is a US-based company having certified bookkeepers and accountants with over 7 years of experience.
             </p>
             <div class="social d-flex gap-2">
               <a href=""><i class="bi bi-facebook"></i></a
