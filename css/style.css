@@ -195,17 +195,20 @@ p {
 }
 /* contact */
 .formbg {
-  background: #f3a769;
-  color: white;
+  border-right: 2px solid #e4812f;
+  border-left: 2px solid #e4812f;
 }
 
 .form {
   background: snow;
-  border-left: 2px solid #e4812f;
+}
+.submitbtn {
+  background-color: #fa7304;
+  color: #fff;
 }
 /* dedicated */
 #dedicatehero {
-  background-image: url("../imgs/dedicatedbg.png");
+  background-image: url("../imgs/dedicatedbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -219,7 +222,7 @@ p {
 }
 /* cloud */
 #cloudhero {
-  background-image: url("../imgs/cloud\ accounting.png");
+  background-image: url("../imgs/cloudaccountingbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -227,7 +230,7 @@ p {
 }
 /* payroll */
 #payrollhero {
-  background-image: url("../imgs/payroll.png");
+  background-image: url("../imgs/payrollbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -235,7 +238,7 @@ p {
 }
 /* report */
 #reporthero {
-  background-image: url("../imgs/monthly\ financial.png");
+  background-image: url("../imgs/monthlyfinancialbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -253,7 +256,7 @@ p {
 
 /* reconciliation */
 #reconcihero {
-  background-image: url("../imgs/reconciliation.png");
+  background-image: url("../imgs/reconciliationbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -341,4 +344,17 @@ p {
 
 #myBtn:hover {
   background-color: #555;
+}
+.mycard {
+  position: relative;
+}
+.mycard::before {
+  content: "";
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 40px solid whitesmoke;
+  border-left: 40px solid rgb(177, 170, 170);
+  width: 0;
 }
