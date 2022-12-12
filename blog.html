@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogs</title>
-    <link rel="icon" href="imgs/logo.webp" type="image/icon type">
+    <link rel="icon" href="imgs/logo.webp" type="image/icon type" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -34,7 +34,7 @@
       .overlay {
         position: absolute;
         bottom: 100%;
-        right:0;
+        right: 0;
         background-color: rgb(238, 146, 26);
         overflow: hidden;
         width: 20%;
@@ -45,7 +45,6 @@
       .card:hover .overlay {
         bottom: 0;
         height: 100%;
-        
       }
 
       .text {
@@ -59,84 +58,110 @@
         transform: translate(-50%, -50%);
         text-align: center;
       }
-      .text i{
+      .text i {
         color: white;
         font-size: 18px;
       }
     </style>
   </head>
   <body>
-     <!-- header -->
-     <script src="js/header.js"></script>
+    <!-- header -->
+    <script src="js/header.js"></script>
     <my-header></my-header>
     <!-- end -->
     <section id="abouthero">
-        <div class="container ">
-          <div class="row mt-5 g-5">
-            <div class="col-lg-12 mt-5 text-center">
-             <h2>Accounting, Bookkeeping & Tax Blogs</h2>
-             <p class="text-center">Visit our blogs for daily update about bookkeeping</p>
-              </div>
-              <div class="mt-2 d-flex justify-content-center align-items-center">
-                <button type="button" class="btn-banner">
-                  <a href="contact.html#form">
-                    Schedule Free Call
-                      <i class="bi bi-calendar-week text-light"></i
-                  ></a>
-                
-                </button>
-              </div>
+      <div class="container">
+        <div class="row mt-5 g-5">
+          <div class="col-lg-12 mt-5 text-center">
+            <h2>Accounting, Bookkeeping & Tax Blogs</h2>
+            <p class="text-center">
+              Visit our blogs for daily update about bookkeeping
+            </p>
+
+            <div class="mt-2 d-flex justify-content-center align-items-center">
+              <button type="button" class="btn-banner">
+                <a href="contact.html#form">
+                  Schedule Free Call
+                  <i class="bi bi-calendar-week text-light"></i
+                ></a>
+              </button>
             </div>
-            
           </div>
         </div>
-      </section>
-     
-     <!--  -->
-     <section class="blog">
-        <div class="container">
-            <div class="row my-4 g-4">
-                <div class="col-lg-4 col-md-6 d-flex">
-                    <div class="card card-body flex-fill">
-                        <img src="./imgs/w9form.png" height="auto" width="400px" class="img-fluid mb-3" alt="" />
-                        <h3>What is W9 form?</h3>
-                        <P>IRS Form W-9, is one of many tax documents required by the IRS 
-                           to help contract workers.....
-                       </P>
-                     <a href="blogdetails.html"><button type="button" class="btn btn-link fw-bold">Read more</button></a>
-                     <div class="overlay">
-                      <div class="text">
-                        <p><b><i class="bi bi-share"></i></b></p>
-                        <ul class="p-2" style="list-style: none">
-                          <p>
-                           <a href=""> <li><i class="bi bi-facebook"></i></li></a>
-                          </p>
-                          <p>
-                            <a href=""> <li><i class="bi bi-instagram"></i></li></a>
-                          </p>
-                          <p>
-                            <a href=""> <li><i class="bi bi-linkedin"></i></li></a>
-                          </p>
-                          <p>
-                            <li>
-                              <a href=""> <li><i class="bi bi-twitter"></i></li></a>
-                            </li>
-                          </p>
-                        </ul>
-                      </div>
-                    </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="blog">
+      <div class="container">
+        <div class="row my-4 g-4">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="card card-body flex-fill">
+              <img
+                src="./imgs/w9form.png"
+                height="auto"
+                width="400px"
+                class="img-fluid mb-3"
+                alt=""
+              />
+              <h3>What is W9 form?</h3>
+              <p>
+                IRS Form W-9, is one of many tax documents required by the IRS
+                to help contract workers.....
+              </p>
+              <a href="blogdetails.html"
+                ><button type="button" class="btn btn-link fw-bold">
+                  Read more
+                </button></a
+              >
+              <div class="overlay">
+                <div class="text">
+                  <p>
+                    <b><i class="bi bi-share"></i></b>
+                  </p>
+                  <ul class="p-2" style="list-style: none">
+                    <p>
+                      <a href="">
+                        <li><i class="bi bi-facebook"></i></li
+                      ></a>
+                    </p>
+                    <p>
+                      <a href="">
+                        <li><i class="bi bi-instagram"></i></li
+                      ></a>
+                    </p>
+                    <p>
+                      <a href="">
+                        <li><i class="bi bi-linkedin"></i></li
+                      ></a>
+                    </p>
+                    <p>
+                      <li>
+                        <a href="">
+                          <li><i class="bi bi-twitter"></i></li
+                        ></a>
+                      </li>
+                    </p>
+                  </ul>
                 </div>
-                </div>
-               
-              
+              </div>
             </div>
+          </div>
         </div>
-     </section>
+      </div>
+    </section>
     <!-- footer -->
     <script src="js/footer.js"></script>
     <my-footer></my-footer>
-<!-- end footer -->
-<button onclick="topFunction()" id="myBtn" title="Go to top" class="btn rounded-pill"><i class="bi bi-arrow-up "></i></button>
-<script src="js/demo.js"></script>
-</body>
+    <!-- end footer -->
+    <button
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      class="btn rounded-pill"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+    <script src="js/demo.js"></script>
+  </body>
 </html>
