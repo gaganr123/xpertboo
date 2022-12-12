@@ -4,9 +4,9 @@ class MyFooter extends HTMLElement {
           <!-- ======= Footer ======= -->
           <section class="footer">
       <div class="container-fluid">
-        <div class="row mt-5 py-5 g-2">
+        <div class="row mt-5 py-5 g-2 justify-content-end">
        
-          <div class="col-lg-3 col-md-6 col-sm-12 ps-5">
+          <div class="col-lg-3 col-md-6 col-sm-12">
             <img
               class="img-fluid p-2"
               src="imgs/logo.webp"
@@ -25,7 +25,7 @@ class MyFooter extends HTMLElement {
             </div>
           </div>
           <!-- col end -->
-          <div class="col-lg-4 col-md-6 col-sm-12 ps-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <h5 class="ps-5 mb-3">Our Services</h5>
             <ul style="list-style: none">
               <li>
@@ -68,7 +68,7 @@ class MyFooter extends HTMLElement {
             </ul>
           </div>
           <!-- col end -->
-          <div class="col-lg-4 ps-5">
+          <div class="col-lg-4">
             <h5 class="mb-3">Company</h5>
             <p><i class="bi bi-geo"></i> Round Rock, Texas</p>
             <p><i class="bi bi-envelope-check-fill"></i> contact@ourbookkeepingservices.com</p>
