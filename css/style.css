@@ -263,6 +263,20 @@ p {
   height: 100vh;
   width: 100%;
 }
+
+/* blog */
+#bloghero {
+  background-image: url("../imgs/blogbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.blogbtn a {
+  text-decoration: wavy;
+  color: black;
+  font-weight: bold;
+}
 /* footer */
 .footer {
   background-color: rgba(31, 27, 27, 0.822);
