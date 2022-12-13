@@ -118,6 +118,7 @@ p {
 }
 .btn-banner:hover {
   background-color: #555;
+  transition: all 2s;
 }
 /* help */
 .help p {
