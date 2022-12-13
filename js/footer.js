@@ -59,20 +59,20 @@ class MyFooter extends HTMLElement {
               <li>
                 <p>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="payroll.html"> Payroll Management</a>
+                  <a href="payroll-management-services.html"> Payroll Management</a>
                 </p>
               </li>
               <li>
                 <p>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="report.html"> Monthly Financial Reporting</a>
+                  <a href="monthly-financial-report.html"> Monthly Financial Reporting</a>
                 </p>
               </li>
 
               <li>
                 <p>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="cloud.html"> Upgrade to Cloud Accounting</a>
+                  <a href="accounting-software.html"> Upgrade to Cloud Accounting</a>
                 </p>
               </li>
               <li>

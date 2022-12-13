@@ -46,18 +46,18 @@ class MyHeader extends HTMLElement {
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="payroll.html"
+                <a class="dropdown-item" href="payroll-management-services.html"
                   >Payroll Management</a
                 >
               </li>
 
               <li>
-                <a class="dropdown-item" href="report.html"
+                <a class="dropdown-item" href="monthly-financial-report.html"
                   >Monthly Financial Reporting</a
                 >
               </li>
               <li>
-                <a class="dropdown-item" href="cloud.html"
+                <a class="dropdown-item" href="accounting-software.html"
                   >Upgrade to Cloud Accounting</a
                 >
               </li>
