@@ -14,8 +14,24 @@ class MyFooter extends HTMLElement {
               height="auto"
               alt=""
             />
+            <div class="d-flex gap-2 mt-2">
+            <img
+            class="img-fluid p-2"
+            src="imgs/xerouk.webp"
+            width="140px"
+            height="auto"
+            alt=""
+          />
+          <img
+          class="img-fluid p-2"
+          src="imgs/quickbook.webp"
+          width="140px"
+          height="auto"
+          alt=""
+        />
+      </div>
 
-            <p class="my-5">
+            <p class="my-3">
             Ourbookkeepingservices is a US-based company having certified bookkeepers and accountants with over 7 years of experience.
             </p>
             <div class="social d-flex gap-2">
