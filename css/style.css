@@ -266,7 +266,7 @@ p {
 
 /* blog */
 #bloghero {
-  background-image: url("../imgs/blogbg.png");
+  background-image: url("../imgs/blogbg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
