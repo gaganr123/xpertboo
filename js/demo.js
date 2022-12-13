@@ -24,60 +24,70 @@ function changeColor() {
       "mouseenter",
       (check1 = () => {
         services.style.color = "#FFFFFF";
+        services.style.borderBottom = "1px solid #FFFFFF";
       })
     );
     services.addEventListener(
       "mouseleave",
       (check2 = () => {
         services.style.color = "#000000";
+        services.style.borderBottom = "none";
       })
     );
     about.addEventListener(
       "mouseenter",
       (check1 = () => {
         about.style.color = "#FFFFFF";
+        about.style.borderBottom = "1px solid #FFFFFF";
       })
     );
     about.addEventListener(
       "mouseleave",
       (check2 = () => {
         about.style.color = "#000000";
+        about.style.borderBottom = "none";
       })
     );
     pricing.addEventListener(
       "mouseenter",
       (check1 = () => {
         pricing.style.color = "#FFFFFF";
+        pricing.style.borderBottom = "1px solid #FFFFFF";
       })
     );
     pricing.addEventListener(
       "mouseleave",
       (check2 = () => {
         pricing.style.color = "#000000";
+        pricing.style.borderBottom = "none";
       })
     );
     contact.addEventListener(
       "mouseenter",
       (check1 = () => {
         contact.style.color = "#FFFFFF";
+        contact.style.borderBottom = "1px solid #FFFFFF";
       })
     );
     contact.addEventListener(
       "mouseleave",
       (check2 = () => {
         contact.style.color = "#000000";
+        contact.style.borderBottom = "none";
       })
     );
     blog.addEventListener(
       "mouseenter",
       (check1 = () => {
         blog.style.color = "#FFFFFF";
+        blog.style.borderBottom = "1px solid #FFFFFF";
       })
     );
     blog.addEventListener(
       "mouseleave",
       (check2 = () => {
         blog.style.color = "#000000";
+        blog.style.borderBottom = "none";
       })
     );
   }
