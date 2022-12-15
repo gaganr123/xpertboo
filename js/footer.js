@@ -53,7 +53,7 @@ class MyFooter extends HTMLElement {
               <li>
                 <p>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="dedicate.html"> Dedicated Bookkeeping service</a>
+                  <a href="accounting-services.html"> Dedicated Bookkeeping service</a>
                 </p>
               </li>
               <li>
@@ -78,7 +78,7 @@ class MyFooter extends HTMLElement {
               <li>
                 <p>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="payable.html"> Payable/receivable Management</a>
+                  <a href="receivable-management-services.html"> Payable/receivable Management</a>
                 </p>
               </li>
             </ul>

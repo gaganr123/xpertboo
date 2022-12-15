@@ -41,7 +41,7 @@ class MyHeader extends HTMLElement {
             </a>
             <ul class="dropdown-menu border-0" aria-labelledby="services">
               <li>
-                <a class="dropdown-item" href="dedicate.html"
+                <a class="dropdown-item" href="accounting-services.html"
                   >Dedicated Bookkeeping service</a
                 >
               </li>
@@ -63,7 +63,7 @@ class MyHeader extends HTMLElement {
               </li>
 
               <li>
-                <a class="dropdown-item" href="receivable.html"
+                <a class="dropdown-item" href="receivable-management-services.html"
                   >Receivable/payable Management</a
                 >
               </li>
