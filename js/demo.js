@@ -178,26 +178,6 @@ function changeColorto() {
 
 // counter
 
-$(document).ready(function () {
-  $(".counterup").each(function () {
-    $(this)
-      .prop("Counter", 50)
-      .animate(
-        {
-          Counter: $(this).text(),
-        },
-        {
-          duration: 4000,
-          easing: "swing",
-          step: function (now) {
-            $(this).text(Math.ceil(now));
-          },
-        }
-      );
-  });
-});
-
-// counter end
 // back-to-top
 let mybutton = document.getElementById("myBtn");
 
