@@ -101,7 +101,7 @@ p {
     box-shadow: 0 0 5px black;
   }
   50% {
-    background-color: rgb(236, 227, 227);
+    background-color: rgb(218, 207, 207);
     box-shadow: 0 0 10px black;
   }
   100% {
@@ -409,7 +409,7 @@ p {
   color: white;
   cursor: pointer;
   padding: 10px;
-  animation: vertical-shaking 3s infinite;
+  animation: vertical-shaking 2s infinite;
 }
 
 @keyframes vertical-shaking {
