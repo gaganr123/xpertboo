@@ -102,7 +102,7 @@ class MyHeader extends HTMLElement {
       </div>
       <!-- end -->
       <div class="call me-3">
-        <a href="tel:9835678"
+        <a href="tel:9835678" class="callbtn"
           ><i class="bi bi-telephone-outbound-fill"></i
         ></a>
       </div>

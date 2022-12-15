@@ -39,6 +39,7 @@ function changeColor() {
       (check1 = () => {
         about.style.color = "#FFFFFF";
         about.style.borderBottom = "1px solid #FFFFFF";
+        about.style.transition = "all ease 1s";
       })
     );
     about.addEventListener(
@@ -53,6 +54,7 @@ function changeColor() {
       (check1 = () => {
         pricing.style.color = "#FFFFFF";
         pricing.style.borderBottom = "1px solid #FFFFFF";
+        pricing.style.transition = "all ease 1s";
       })
     );
     pricing.addEventListener(
@@ -67,6 +69,7 @@ function changeColor() {
       (check1 = () => {
         contact.style.color = "#FFFFFF";
         contact.style.borderBottom = "1px solid #FFFFFF";
+        contact.style.transition = "all ease 1s";
       })
     );
     contact.addEventListener(
@@ -81,6 +84,7 @@ function changeColor() {
       (check1 = () => {
         blog.style.color = "#FFFFFF";
         blog.style.borderBottom = "1px solid #FFFFFF";
+        blog.style.transition = "all ease 1s";
       })
     );
     blog.addEventListener(
