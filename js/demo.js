@@ -1,166 +1,49 @@
-let body = document.getElementById("navbar");
-
-// let Xpert = document.querySelector('.Xpert')
+let nav = document.getElementById("navbar");
 let services = document.getElementById("services");
 let about = document.getElementById("about");
 let pricing = document.getElementById("pricing");
-let contact = document.getElementById("contact");
 let blog = document.getElementById("blog");
+let contact = document.getElementById("contact");
 
+// back-to-top
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
-  changeColor();
   scrollFunction();
 };
 
-function changeColor() {
-  document.getElementById("navbar").style.backgroundColor = "#E4812F";
-  document.getElementById("navImg").src = "imgs/changeimg.webp";
-
-  if (window.scrollY == 0) {
-    changeColorto();
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    nav.style.backgroundColor = "#E4812F";
+    document.getElementById("navImg").src = "imgs/changeimg.webp";
+    services.style.color = "white";
+    about.style.color = "white";
+    pricing.style.color = "white";
+    blog.style.color = "white";
+    contact.style.color = "white";
+    contact.style.transition = "all ease 1s";
+    services.style.transition = "all ease 1s";
+    about.style.transition = "all ease 1s";
+    blog.style.transition = "all ease 1s";
+    pricing.style.transition = "all ease 1s";
   } else {
-    // Xpert.style.color = "#FFFFFF"
-    services.addEventListener(
-      "mouseenter",
-      (check1 = () => {
-        services.style.color = "#FFFFFF";
-        services.style.borderBottom = "1px solid #FFFFFF";
-      })
-    );
-    services.addEventListener(
-      "mouseleave",
-      (check2 = () => {
-        services.style.color = "#000000";
-        services.style.borderBottom = "none";
-      })
-    );
-    about.addEventListener(
-      "mouseenter",
-      (check1 = () => {
-        about.style.color = "#FFFFFF";
-        about.style.borderBottom = "1px solid #FFFFFF";
-        about.style.transition = "all ease 1s";
-      })
-    );
-    about.addEventListener(
-      "mouseleave",
-      (check2 = () => {
-        about.style.color = "#000000";
-        about.style.borderBottom = "none";
-      })
-    );
-    pricing.addEventListener(
-      "mouseenter",
-      (check1 = () => {
-        pricing.style.color = "#FFFFFF";
-        pricing.style.borderBottom = "1px solid #FFFFFF";
-        pricing.style.transition = "all ease 1s";
-      })
-    );
-    pricing.addEventListener(
-      "mouseleave",
-      (check2 = () => {
-        pricing.style.color = "#000000";
-        pricing.style.borderBottom = "none";
-      })
-    );
-    contact.addEventListener(
-      "mouseenter",
-      (check1 = () => {
-        contact.style.color = "#FFFFFF";
-        contact.style.borderBottom = "1px solid #FFFFFF";
-        contact.style.transition = "all ease 1s";
-      })
-    );
-    contact.addEventListener(
-      "mouseleave",
-      (check2 = () => {
-        contact.style.color = "#000000";
-        contact.style.borderBottom = "none";
-      })
-    );
-    blog.addEventListener(
-      "mouseenter",
-      (check1 = () => {
-        blog.style.color = "#FFFFFF";
-        blog.style.borderBottom = "1px solid #FFFFFF";
-        blog.style.transition = "all ease 1s";
-      })
-    );
-    blog.addEventListener(
-      "mouseleave",
-      (check2 = () => {
-        blog.style.color = "#000000";
-        blog.style.borderBottom = "none";
-      })
-    );
+    mybutton.style.display = "none";
+    nav.style.backgroundColor = "rgb(248, 244, 244)";
+    document.getElementById("navImg").src = "imgs/logo.webp";
+    services.style.color = "black";
+    about.style.color = "black";
+    pricing.style.color = "black";
+    blog.style.color = "black";
+    contact.style.color = "black";
   }
 }
 
-function changeColorto() {
-  // Xpert.style.color = "#EE6600"
-  document.getElementById("navImg").src = "imgs/logo.webp";
-  document.getElementById("navbar").style.cssText = "backgroundColor: none;";
-  services.addEventListener(
-    "mouseenter",
-    (check1 = () => {
-      services.style.color = "#F15A22";
-    })
-  );
-  services.addEventListener(
-    "mouseleave",
-    (check2 = () => {
-      services.style.color = "#000000";
-    })
-  );
-  about.addEventListener(
-    "mouseenter",
-    (check1 = () => {
-      about.style.color = "#F15A22";
-    })
-  );
-  about.addEventListener(
-    "mouseleave",
-    (check2 = () => {
-      about.style.color = "#000000";
-    })
-  );
-  pricing.addEventListener(
-    "mouseenter",
-    (check1 = () => {
-      pricing.style.color = "#F15A22";
-    })
-  );
-  pricing.addEventListener(
-    "mouseleave",
-    (check2 = () => {
-      pricing.style.color = "#000000";
-    })
-  );
-  contact.addEventListener(
-    "mouseenter",
-    (check1 = () => {
-      contact.style.color = "#F15A22";
-    })
-  );
-  contact.addEventListener(
-    "mouseleave",
-    (check2 = () => {
-      contact.style.color = "#000000";
-    })
-  );
-  blog.addEventListener(
-    "mouseenter",
-    (check1 = () => {
-      blog.style.color = "#F15A22";
-    })
-  );
-  blog.addEventListener(
-    "mouseleave",
-    (check2 = () => {
-      blog.style.color = "#000000";
-    })
-  );
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 (function (d, w, c) {
@@ -175,27 +58,3 @@ function changeColorto() {
   s.src = "https://call.chatra.io/chatra.js";
   if (d.head) d.head.appendChild(s);
 })(document, window, "Chatra");
-
-// counter
-
-// back-to-top
-let mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}

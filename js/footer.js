@@ -47,7 +47,7 @@ class MyFooter extends HTMLElement {
               <li>
                 <p>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="reconciliation.html"> Reconciliations</a>
+                  <a href="account-reconciliation.html"> Reconciliations</a>
                 </p>
               </li>
               <li>

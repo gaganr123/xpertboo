@@ -79,7 +79,8 @@ p {
 }
 /* navbar hover effect to change color and border  */
 .nav-item .nav-link:hover {
-  color: rgba(241, 96, 34, 0.705);
+  border-bottom: 1px solid white;
+  transition: all ease 1s;
 }
 
 .callbtn {
