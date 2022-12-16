@@ -45,9 +45,26 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+// whatsapp
+const myTimeout = setTimeout(show, 10000);
+function show() {
+  document.getElementById("whatsappShow").style.cssText = `
+  visibility:visible;
+  opacity: 1;
+  transition:opacity 600ms, visibility 600ms;
+`;
+}
+function closeWhatsapp() {
+  document.getElementById("whatsappShow").style.cssText = `
+  visibility:hidden;
+  opacity: 0;
+  transition:opacity 600ms, visibility 600ms;
+`;
+}
+// chatra
 
 (function (d, w, c) {
-  w.ChatraID = "RPhuNjBtNppM7oKHT";
+  w.ChatraID = "a3CWzgJX2Z8dTAsr6";
   var s = d.createElement("script");
   w[c] =
     w[c] ||

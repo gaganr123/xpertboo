@@ -2,6 +2,59 @@ class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
           <!-- ======= Footer ======= -->
+      <section id="floating-whatsapp" class="py-0">
+      <div class="container-fluid">
+        <button
+          type="button"
+          onclick="show()"
+          id="btnID"
+          class="whatsapp-btn"
+        >
+          <i class="bi-whatsapp"></i>
+        </button>
+        <div class="row">
+          <div
+            class="col-10 col-md-4 col-lg-3 whatsapp-card"
+            id="whatsappShow"
+          >
+            <div class="wcard">
+              <div class="wcard-header">
+                <div class="chat-icon">
+                  <i class="bi-chat-dots"></i>
+                </div>
+                <div class="chat-person">
+                  <h5>Bikash Khanal</h5>
+                  <p>Text Us in Whatsapp</p>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  onclick="closeWhatsapp()"
+                ></button>
+              </div>
+              <div class="wcard-body">
+              <div class="mt-3">
+                <p class="text-box">
+                  <span>Bikash Khanal</span><br />
+                  Hi, there!<br />
+                  How can I help you?
+                </p>
+             </div>
+              <div class="wcard-footer">
+                <a
+                  href="https://api.whatsapp.com/send?phone=+19786376362&text=Hello,%20Can%20you%20please%20provide%20me%20more%20information?"
+                  target="_blank"
+                  class="btn-all"
+                  >
+                    <i class="bi-whatsapp me-2"></i>Start Chat
+                  </a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
           <section class="footer">
       <div class="container-fluid">
         <div class="row mt-5 py-5 g-2 justify-content-end">
@@ -88,7 +141,7 @@ class MyFooter extends HTMLElement {
             <h5 class="mb-3">Company</h5>
             <p><i class="bi bi-geo"></i> Round Rock, Texas</p>
             <p><i class="bi bi-envelope-check-fill"></i> info@ourbookkeepingservices.com</p>
-            <p><i class="bi bi-telephone-fill"></i> (978) 637 6362</p>
+            <p><i class="bi bi-telephone-fill"></i> +1 (978) 637 6362</p>
             <div class="d-flex gap-2 mt-lg-5">
               <p><a href="terms-condition.html">Terms of use</a></p>
               <span class="text-light">|</span>
