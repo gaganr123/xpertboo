@@ -8,9 +8,9 @@ class MyFooter extends HTMLElement {
           type="button"
           onclick="show()"
           id="btnID"
-          class="whatsapp-btn"
+          class="whatsapp-btn shadow"
         >
-          <i class="bi-whatsapp"></i>
+          <i class="bi bi-whatsapp"></i>
         </button>
         <div class="row">
           <div
@@ -34,7 +34,7 @@ class MyFooter extends HTMLElement {
               </div>
               <div class="wcard-body">
               <div class="mt-3">
-                <p class="text-box">
+                <p class="text-box shadow rounded-2">
                   <span>Bikash Khanal</span><br />
                   Hi, there!<br />
                   How can I help you?
