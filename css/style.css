@@ -332,6 +332,17 @@ p {
   color: black;
   font-weight: bold;
 }
+
+#thankyou {
+  height: 85vh;
+  width: 100%;
+}
+.thankyou {
+  margin-top: 14%;
+}
+.thankyou-icon {
+  color: green;
+}
 /* footer */
 .footer {
   background-color: rgba(31, 27, 27, 0.822);

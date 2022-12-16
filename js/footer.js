@@ -36,8 +36,8 @@ class MyFooter extends HTMLElement {
             </p>
             <div class="social d-flex gap-2">
               <a href=""><i class="bi bi-facebook"></i></a
-              ><a href=""><i class="bi bi-youtube"></i></a
-              ><a href=""><i class="bi bi-instagram"></i></a>
+              ><a href=""><i class="bi bi-twitter"></i></a
+              ><a href=""><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
           <!-- col end -->
@@ -87,7 +87,7 @@ class MyFooter extends HTMLElement {
           <div class="col-lg-4">
             <h5 class="mb-3">Company</h5>
             <p><i class="bi bi-geo"></i> Round Rock, Texas</p>
-            <p><i class="bi bi-envelope-check-fill"></i> contact@ourbookkeepingservices.com</p>
+            <p><i class="bi bi-envelope-check-fill"></i> info@ourbookkeepingservices.com</p>
             <p><i class="bi bi-telephone-fill"></i> (978) 637 6362</p>
             <div class="d-flex gap-2 mt-lg-5">
               <p><a href="terms-condition.html">Terms of use</a></p>

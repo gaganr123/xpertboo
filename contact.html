@@ -72,50 +72,71 @@
               *Please feel free to add any information here that would be
               helpful for us to know ahead of meeting with you.
             </h6>
-            <form class="row g-3 mt-1 p-2">
-              <div class="col-md-6">
-                <label for="inputName4" class="form-label">Full Name*</label>
+            <form
+              class="row g-3 mt-1 p-2"
+              target="_blank"
+              action="https://formsubmit.co/gngxrawat@gmail.com"
+              method="POST"
+            >
+              <div class="col-md-6 mb-1">
+                <label for="inputName" class="form-label">Full Name*</label>
                 <input
                   type="text"
                   class="form-control"
-                  id="inputName4"
+                  name="name"
+                  placeholder="Enter your name"
                   required
                 />
               </div>
-              <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email*</label>
+              <div class="col-md-6 mb-1">
+                <label for="inputEmail" class="form-label">Email*</label>
                 <input
                   type="email"
                   class="form-control"
-                  id="inputEmail4"
+                  name="email"
+                  placeholder="Enter your email"
                   required
                 />
+                <input
+                  type="hidden"
+                  name="_autoresponse"
+                  value="Thanks for contacting us,we have received your mail.We will contact you soon.From ourbookkepingservices.com"
+                />
               </div>
-              <div class="col-md-6">
-                <label for="inputPhone4" class="form-label"
-                  >Mobile Number</label
-                >
-                <input type="number" class="form-control" id="inputPhone4" />
+              <div class="col-md-6 mb-1">
+                <label for="inputPhone" class="form-label">Mobile Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  name="number"
+                  placeholder="+1 9XXXXXXX"
+                />
               </div>
-              <div class="col-md-6">
-                <label for="inputJob4" class="form-label">Job Title</label>
-                <input type="text" class="form-control" id="inputJob4" />
+              <div class="col-md-6 mb-1">
+                <label for="inputJob" class="form-label">Subject</label>
+                <input type="text" class="form-control" name="subject" />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mb-1">
                 <label for="inputDate" class="form-label">Select Date</label>
-                <input type="date" class="form-control" id="date" />
+                <input type="date" class="form-control" name="date" />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mb-1">
                 <label for="inputTime" class="form-label">Choose time</label>
-                <input type="time" class="form-control" id="time" />
+                <input type="time" class="form-control" name="time" />
               </div>
               <div class="col-12">
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://www.ourbookkeepingservices.com/thankyou.html"
+                />
                 <label for="inputQuery" class="form-label"
                   >Write Your Query</label
                 >
                 <textarea
                   class="form-control"
-                  id="inputQuery"
+                  name="message"
+                  placeholder="Type message"
                   rows="3"
                 ></textarea>
               </div>
