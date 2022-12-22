@@ -44,7 +44,7 @@ class MyFooter extends HTMLElement {
                 <a
                   href="https://api.whatsapp.com/send?phone=+19786376362&text=Hello,%20Can%20you%20please%20provide%20me%20more%20information?"
                   target="_blank"
-                  class="btn-all"
+                  class="btn-all "
                   >
                     <i class="bi-whatsapp me-2"></i>Start Chat
                   </a>
@@ -88,9 +88,9 @@ class MyFooter extends HTMLElement {
             Ourbookkeepingservices is a US-based company having certified bookkeepers and accountants with over 7 years of experience.
             </p>
             <div class="social d-flex gap-2">
-              <a href=""><i class="bi bi-facebook"></i></a
-              ><a href=""><i class="bi bi-twitter"></i></a
-              ><a href=""><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a
+              ><a href="#"><i class="bi bi-twitter"></i></a
+              ><a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
           <!-- col end -->
