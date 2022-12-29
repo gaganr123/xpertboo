@@ -106,7 +106,7 @@ p {
 
 .btn-schedule {
   border: 1px solid wheat;
-  border-radius: 50px;
+  border-radius: 20px 0px 20px;
   background-color: rgba(226, 84, 24, 0.925);
   padding: 13px;
   font-weight: bold;
@@ -124,7 +124,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 20px 0px 20px;
   z-index: -2;
 }
 .btn-schedule:before {
@@ -136,7 +136,7 @@ p {
   height: 100%;
   background-color: black;
   transition: all 0.3s;
-  border-radius: 50px;
+  border-radius: 20px 0px 20px;
   z-index: -1;
 }
 .btn-schedule:hover {
